@@ -41,6 +41,7 @@ a.nav-link {
     font-weight: bold !important;
     line-height: 20px !important;
     color: #ffffff !important;
+    height: 36px !important;
 }
 
 .button-aneh {
@@ -96,6 +97,58 @@ button.btn-close.btn-close-black {
     /* width: 704px; */
     height: 407px;
     margin-top: 37px;
+}
+
+/* search-page */
+
+.search {
+    background-color: #ffffff;
+    width: 73%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    margin-top: -30px;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(17%);
+}
+
+.search--main {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 24px;
+}
+
+.type-driver{
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+}
+
+.passenger {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-cars{
+    width: 210px;
+    height: 36px;
+}
+
+.search-car{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
 }
 
 /* footer-page */

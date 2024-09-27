@@ -115,9 +115,6 @@
                             selama 24 jam.
                         </p>
                     </div>
-                    <a class="button-general nav-link active button-aneh">
-                        Mulai Sewa Mobil
-                    </a>
                 </div>
                 <div class="right-side d-flex justify-content-end">
                     <img src="images/assets/img_car.png" alt="BCR.png" />
@@ -125,7 +122,40 @@
             </div>
         </section>
 
-        <section></section>
+        <section class="search">
+            <div class="search--main">
+                <div class="type-driver">
+                    <label for="driver">Tipe Driver</label>
+                    <select name="driver" id="driver" class="input-cars">
+                        <option value="false" disabled selected id="driverPlaceholder">Pilih Tipe Driver</option>
+                        <option value="1">Dengan Sopir</option>
+                        <option value="2">Tanpa Sopir (Lepas Kunci)</option>
+                    </select>
+                </div>
+                <div class="date">
+                    <label for="date">Tanggal</label>
+                    <input type="date" class="input-cars" name="date" id="date" placeholder="Pilih Tanggal">
+                </div>
+                <div class="time">
+                    <label for="time">Waktu Jemput/Ambil</label>
+                    <select name="time" id="time" class="input-cars">
+                        <option value="" disabled selected>Pilih Waktu</option>
+                        <option value="08:00">08:00 &nbsp;&nbsp;&nbsp;WIB</option>
+                        <option value="09:00">09:00 &nbsp;&nbsp;&nbsp;WIB</option>
+                        <option value="10:00">10:00 &nbsp;&nbsp;&nbsp;WIB</option>
+                        <option value="11:00">11:00 &nbsp;&nbsp;&nbsp;WIB</option>
+                        <option value="12:00">12:00 &nbsp;&nbsp;&nbsp;WIB</option>
+                    </select>                  
+                </div>
+                <div class="passenger">
+                    <label for="passenger">Jumlah Penumpang</label>
+                    <input type="number" class="input-cars" placeholder="Jumlah Penumpang">
+                </div>
+                <div class="search-car">
+                    <button type="submit" class="search-car-button button-general  nav-link active">Cari Mobil</button>
+                </div>
+            </div>
+        </section>
 
         <section class="footer">
             <div class="footer-main">

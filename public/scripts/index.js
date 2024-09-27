@@ -35,8 +35,8 @@ buttonToCars[i].href = "http://localhost:8000/cars.html";
 //     `;
 // });
 
-// const driverPlaceholder = document.getElementById('driverPlaceholder');
-// driverPlaceholder.style.display = "none";
+const driverPlaceholder = document.getElementById('driverPlaceholder');
+driverPlaceholder.style.display = "none";
 
 // const timePlaceholder = document.querySelector('#time option[selected]');
 // timePlaceholder.style.display = "none";
