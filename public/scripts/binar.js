@@ -10,11 +10,15 @@ class Binar {
       const isPositive = getRandomInt(0, 1) === 1;
       const timeAt = new Date();
       const mutator = getRandomInt(1000000, 100000000);
-      const availableAt = new Date(timeAt.getTime() + (isPositive ? mutator : -1 * mutator))
+      const availableAt = new Date(timeAt.getTime() + (isPositive ? mutator : -1 * mutator));
+      const date = availableAt.getDate();
+      const hours = availableAt.getHours();
 
       return {
         ...car,
         availableAt,
+        date,
+        hours,
       };
     })
   }
