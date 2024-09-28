@@ -22,8 +22,6 @@ class Car {
         options,
         specs,
         availableAt,
-        date,
-        hours,
     }) {
         this.id = id;
         this.plate = plate;
@@ -40,8 +38,6 @@ class Car {
         this.options = options;
         this.specs = specs;
         this.availableAt = availableAt;
-        this.date = date;
-        this.hours = hours;
     }
 
     render() {
