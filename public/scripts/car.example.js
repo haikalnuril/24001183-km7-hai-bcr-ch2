@@ -47,22 +47,22 @@ class Car {
     render() {
         return `
         <div class="card px-4 py-4 mb-3">
-            <img src=${this.image} class="card-img-top img-fluid">
+            <img src="${this.image}" class="card-img-top img-fluid" style="width: 320px; height: 180px; object-fit: cover;">
           <div class="card-body px-0 pt-3 pb-0">
             <h5 class="card-title fs-6">${this.manufacture}/${this.model}</h5>
             <h5 class="card-title fs-5 fw-bold">Rp ${this.rentPerDay} / hari</h5>
             <p class="cars__p">${this.description}</p>
             <div class="row">
               <div class="col-1">
-                <img src="./images/fi_users1.png" width="20px" alt="" srcset="">
+          <img src="./images/fi_users1.png" width="20px" alt="" srcset="">
               </div>
               <div class="col-10 ms-lg-2">
-                ${this.capacity} orang
+          ${this.capacity} orang
               </div>
             </div>
             <div class="row mt-2">
               <div class="col-1">
-                <img src="./images/fi_settings.png" width="20px" alt="" srcset="">
+          <img src="./images/fi_settings.png" width="20px" alt="" srcset="">
               </div>
               <div class="col-10 ms-lg-2">
               ${this.transmission}
@@ -70,15 +70,15 @@ class Car {
             </div>
             <div class="row mt-2 mb-4">
               <div class="col-1">
-                <img src="./images/fi_calendar.png" width="20px" alt="" srcset="">
+          <img src="./images/fi_calendar.png" width="20px" alt="" srcset="">
               </div>
               <div class="col-10 ms-lg-2">
-                Tahun ${this.year}
+          Tahun ${this.year}
               </div>
             </div>
             <a href="#" class="btn btn-success" style="width:100%">Pilih Mobil</a>
           </div>
         </div>
-    `;
+          `;
     }
 }

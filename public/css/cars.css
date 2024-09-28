@@ -151,6 +151,11 @@ button.btn-close.btn-close-black {
     flex-direction: column;
 }
 
+.card-img-top{
+    width: 320px;
+    height: 180px;
+}
+
 /* footer-page */
 .footer-main {
     width: 80%;
