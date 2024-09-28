@@ -44,9 +44,4 @@ class Binar {
 
     return cars;
   }
-
-  static mandatory (tanggal, waktu, penumpang = 2) {
-    let cars;
-    cars = this.populateCars(cacheCars);
-  }
 }
